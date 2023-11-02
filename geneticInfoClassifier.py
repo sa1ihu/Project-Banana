@@ -1,4 +1,3 @@
-
 def classify(sequence):
     sequence = sequence.upper()
     valid_dna = set("ATGC")
