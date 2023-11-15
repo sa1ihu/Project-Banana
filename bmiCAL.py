@@ -1,3 +1,8 @@
+"""
+monday, nov 13. 2023
+very basic body mass index calculator.
+"""
+
 def res(ans):
     if ans < 18.5:
         return 'Underweight'
