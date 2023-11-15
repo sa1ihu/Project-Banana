@@ -20,7 +20,7 @@ while True:
         ht = float(input('Enter your height in Meters: '))
         ans = wt/(ht)** 2
         x = res(ans)
-        print(f"{ans}: {x}")
+        print(f"Your BMI is {ans:.2f}, You are {x}!")
         break
     except (ValueError, TypeError) as e:
         print(f"An error occured: {e}")
