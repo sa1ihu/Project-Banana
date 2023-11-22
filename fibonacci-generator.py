@@ -1,4 +1,6 @@
-
+"""20:27, sunday, nov 19. 09:38, wednesday, nov 22"""
+#utilising memoisation to handle recursion delays and depth issues.
+#empty dictionary to store/cache results. 
 mem= {}
 
 def fib(x):
@@ -14,6 +16,7 @@ def fib(x):
 
 
 while True:
+    #exception handling for input type idk.
     try:
        x = int(input('enter number: '))
        y = fib(x)
